@@ -1,0 +1,79 @@
+			
+1	Ace of Wands	Ace of Wands: Inspiration, power, creation, beginnings, potential	wands1.png
+2	Two of Wands	2 of Wands: Future planning, progress, decisions, discovery	wands2.png
+3	Three of Wands	3 of Wands: Preparation, foresight, enterprise, expansion	wands3.png
+4	Four of Wands	4 of Wands: Celebration, harmony, marriage, home, community	wands4.png
+5	Five of Wands	5 of Wands: Disagreement, competition, strife, tension, conflict	wands5.png
+6	Six of Wands	6 of Wands: Public recognition, victory, progress, self-confidence	wands6.png
+7	Seven of Wands	7 of Wands: Challenge, competition, perseverance	wands7.png
+8	Eight of Wands	8 of Wands: Speed, action, air travel, movement, swift change	wands8.png
+9	Nine of Wands	9 of Wands: Courage, persistence, test of faith, resilience	wands9.png
+10	Ten of Wands	10 of Wands: Burden, responsibility, hard work, stress, achievement	wands10.png
+11	Page of Wands	Daughter of Wands: Enthusiasm, exploration, discovery, free spirit	wandsP.png
+12	Knight of Wands	Son of Wands: Energy, passion, lust, action, adventure, impulsiveness	wandsKn.png
+13	Queen of Wands	Queen of Wands: Exuberance, warmth, vibrancy, determination	wandsQ.png
+14	King of Wands	King of Wands: Natural-born leader, vision, entrepreneur, honour	wandsK.png
+15	Ace of Swords	Ace of Swords: Raw power, victory, break-throughs, mental clarity	swords1.png
+16	Two of Swords	2 of Swords: Indecision, choices, truce, stalemate, blocked emotions	swords2.png
+17	Three of Swords	3 of Swords: Painful separation, sorrow heartbreak, grief, rejection	swords3.png
+18	Four of Swords	4 of Swords: Contemplation, recuperation, passivity, relaxation, rest	swords4.png
+19	Five of Swords	5 of Swords: Conflict, tension, loss, defeat, win at all costs, betrayal	swords5.png
+20	Six of Swords	6 of Swords: Regretful but necessary transition, rite of passage	swords6.png
+21	Seven of Swords	7 of Swords: Betrayal, deception, getting away with something, stealth	swords7.png
+22	Eight of Swords	8 of Swords: Isolation, self-imposed restriction, imprisonment	swords8.png
+23	Nine of Swords	9 of Swords: Depression, nightmares, intense anxiety, despair	swords9.png
+24	Ten of Swords	10 of Swords: Back-stabbed, defeat, crisis, betrayal, endings, loss	swords10.png
+25	Page of Swords	Daughter of Swords: Talkative, curious, mentally restless, energetic	swordsP.png
+26	Knight of Swords	Son of Swords: Opinionated, hasty, action-oriented, communicative	swordsKn.png
+27	Queen of Swords	Queen of Swords: Quick thinker, organised, perceptive, independent	swordsQ.png
+28	King of Swords	King of Swords: Clear thinking, intellectual power, authority, truth	swordsK.png
+29	Ace of Cups	Ace of Cups: Love, compassion, creativity, overwhelming emotion	cups1.png
+30	Two of Cups	2 of Cups: Unified love, partnership, attraction, relationships	cups2.png
+31	Three of Cups	3 of Cups: Celebration, friendship, creativity, community	cups3.png
+32	Four of Cups	4 of Cups: Meditation, contemplation, apathy, re-evaluation	cups4.png
+33	Five of Cups	5 of Cups: Loss, regret, disappointment, despair, bereavement	cups5.png
+34	Six of Cups	6 of Cups: Reunion, nostalgia, childhood memories, innocence	cups6.png
+35	Seven of Cups	7 of Cups: Fantasy, illusion, wishful thinking, choices, imagination	cups7.png
+36	Eight of Cups	8 of Cups: Escapism, disappointment, abandonment, withdrawal	cups8.png
+37	Nine of Cups	9 of Cups: Wishes fulfilled, comfort, happiness, satisfaction	cups9.png
+38	Ten of Cups	10 of Cups: Harmony, marriage, happiness, alignment	cups10.png
+39	Page of Cups	Daugher of Cups: A messenger, creative beginnings, synchronicity	cupsP.png
+40	Knight of Cups	Son of Cups: Romance, charm, ‘Knight in shining armour’, imagination	cupsKn.png
+41	Queen of Cups	Queen of Cups: Emotional security, calm, intuitive, compassionate	cupsQ.png
+42	King of Cups	King of Cups: Emotional balance and control, generosity	cupsK.png
+43	Ace of Pentacles	Ace of Pentacles: Manifestation, new financial opportunity, prosperity	pentacles1.png
+44	Two of Pentacles	2 of Pentacles: Balance, adaptability, time management, prioritisation	pentacles2.png
+45	Three of Pentacles	3 of Pentacles:  Teamwork, initial fulfilment, collaboration, learning	pentacles3.png
+46	Four of Pentacles	4 of Pentacles: Control, stability, security, possession, conservatism	pentacles4.png
+47	Five of Pentacles	5 of Pentacles: Isolation, insecurity, worry, financial loss, poverty	pentacles5.png
+48	Six of Pentacles	6 of Pentacles: Generosity, charity, giving, prosperity, sharing wealth	pentacles6.png
+49	Seven of Pentacles	7 of Pentacles: Vision, perseverance, profit, reward, investment	pentacles7.png
+50	Eight of Pentacles	8 of Pentacles: Apprenticeship, education, quality, engagement	pentacles8.png
+51	Nine of Pentacles	9 of Pentacles: Gratitude, luxury, self-sufficiency, culmination	pentacles9.png
+52	Ten of Pentacles	10 of Pentacles: Wealth, inheritance, family, establishment, retirement	pentacles10.png
+53	Page of Pentacles	Daughter of Pentacles: Manifestation, financial opportunity, new job	pentaclesP.png
+54	Knight of Pentacles	Son of Pentacles: Efficiency, routine, conservatism, methodical	pentaclesKn.png
+55	Queen of Pentacles	Queen of Pentacles: Practical, homely, motherly, down-to-earth, security	pentaclesQ.png
+56	King of Pentacles	King of Pentacles: Security, control, power, discipline, abundance	pentaclesK.png
+57	Fool	Fool  Beginnings, innocence, spontaneity, a free spirit	major0_fool.png
+58	Magician	Magician: Power, skill, concentration, action, resourcefulness	major1_magician.png
+59	High Priestess	High Priestess: Intuition, Higher powers, mystery, subconscious mind	major2_priestess.png
+60	Empress	Empress: Fertility, femininity, beauty, nature, abundance	major3_empress.png
+61	Emperor	Emperor: Authority, father-figure, structure, solid foundation	major4_emperor.png
+62	Hierophant	Hierophant: Religion, group identification, conformity, tradition, beliefs	major5_hierophant.png
+63	Lovers	Lovers: Love, union, relationships, values alignment, choices	major6_lovers.png
+64	Chariot	Chariot: Control, will power, victory, assertion, determination	major7_chariot.png
+65	Strength	Strength: Strength, courage, patience, control, compassion	major8_strength.png
+66	Hermit	Hermit: Soul-searching, introspection, being alone, inner guidance	major9_hermit.png
+67	Wheel of Fortune	Wheel of Fortune: Good luck, karma, life cycles, destiny, a turning point	major10_wheel.png
+68	Justice	Justice: Justice, fairness, truth, cause and effect, law	major11_justice.png
+69	Hanged Man	Hanged Man: Suspension, restriction, letting go, sacrifice	major12_hanged.png
+70	Death	Death: Endings, beginnings, change, transformation, transition	major13_death.png
+71	Temperance	Temperance: Balance, moderation, patience, purpose, meaning	major14_temperance.png
+72	Devil	Devil: Bondage, addiction, sexuality, materialism	major15_devil.png
+73	Tower	Tower: Disaster, upheaval, sudden change, revelation	major16_tower.png
+74	Star	Star: Hope, spirituality, renewal, inspiration, serenity	major17_star.png
+75	Moon	Moon: Illusion, fear, anxiety, insecurity, subconscious	major18_moon.png
+76	Sun	Sun: Fun, warmth, success, positivity, vitality	major19_sun.png
+77	Judgement	Judgement: Judgement, rebirth, inner calling, absolution	major20_judgement.png
+78	World	World: Completion, integration, accomplishment, travel	major21_world.png

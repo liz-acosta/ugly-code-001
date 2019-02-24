@@ -1,0 +1,71 @@
+<html>
+
+<head>
+
+<script>
+var clicks = 0
+
+var button = document.getElementById("catGif"),
+	count = 0
+	catDiv = document.getElementById("catDiv");
+
+function clickThis() {
+	// alert("Hello! I am an alert box!!");
+	count += 1;
+	if (count > 0 && count < 4) {
+		document.getElementById("catDiv").innerHTML = "Pet the kitty: " + count;
+		console.log("BUTT")
+		if (count === 3) {
+			window.location.href = "testing-some-shit-003.html";
+		}
+	}
+	else {
+		document.getElementById("catDiv").innerHTML = "(click the button)";
+	}
+};
+</script>
+
+
+<style>
+
+	body {
+	 	background-image: url("Battleground3.png");
+/*	 	background-color: #cccccc;*/
+	}
+
+.center-div
+{
+  margin: 0 auto;
+  max-width: 1500px;
+  height: 100px;
+/*  background-color: #ccc;*/
+  border-radius: 3px;
+}
+
+.card {
+    cursor: url("sparkles.png"), auto;
+}
+
+</style>
+</head>
+
+<body>
+
+<p>BUTT</p>
+
+<div  class="center-div">
+<p align="center">
+	<img class="card" src="backing_diamond_2x-big.png" style="padding: 0 15px" onclick="clickThis()">
+	<img class="card" src="backing_diamond_2x-big.png" style="padding: 0 15px" onclick="clickThis()">
+	<img class="card" src="backing_diamond_2x-big.png" style="padding: 0 15px" onclick="clickThis()">
+	<img class="card" src="backing_diamond_2x-big.png" style="padding: 0 15px" onclick="clickThis()">
+	<img class="card" src="backing_diamond_2x-big.png" style="padding: 0 15px" onclick="clickThis()"></p>
+<p align="center"><img src="choose-final-three.png"></p>
+</div>
+
+<div id="catDiv">
+	Pet the kitty:
+</div>
+</body>
+
+</html>
