@@ -2,46 +2,10 @@
 
 <head>
 
-<script>
-
-// function mouseoverThis(clicked_id) {
-// 	var name = clicked_id
-// 	var other_name = clicked_id + "text"
-// 	console.log(other_name)
-// 	var x = document.getElementById(name)
-// 	document.getElementById(name).style.visibility = "hidden";
-// };
-
-// function mouseoffThis(clicked_id) {
-// 	var other_name = clicked_id + "text"
-// 	document.getElementById(clicked_id).style.visibility = "visible";
-
-// }
-
-// var input = document.getElementById("myForm");
-
-// input.addEventListener("keyup", function(event) {
-//   // Number 13 is the "Enter" key on the keyboard
-//   if (event.keyCode === 13) {
-//     window.location.href = "/";
-  	
-
-//     // Cancel the default action, if needed
-//     // event.preventDefault();
-//     alert("Hello!")
-//     // Trigger the button element with a click
-//     // document.getElementById("myForm").submit();
-
-//   }
-// });
-
-</script>
-
 <style>
 
 	body {
 	 	background-image: url("static/Battleground3.png");
-/*	 	background-color: #cccccc;*/
 	}
 
 .center-div
@@ -49,9 +13,6 @@
   margin: 0 auto;
   max-width: 100px;
   max-height: 100px;
-/*  padding: 1px;*/
-/*  background-color: #ccc;*/
-/*  border-radius: 3px;*/
   position: relative;
   border-collapse: collapse;
 
@@ -111,41 +72,25 @@ color: #d9d9d9;
 <body>
 
 BUTT
-
-{% for card in tarot_reading %}
-
 <div  class="center-div" style="display: table; line-height: 20px">
-
 
 <div class="row" style="display: table-row">
 
-<div class="stuff" style="display: table-cell; padding: 15px;">
-<img class="card" src="static/chees-pixel-tarot/{{card[2]}}">
-<p class="img__description" align="center">{{card[1]}}</p>
-</div>
+{% for card in tarot_reading %}
 
 <div class="stuff" style="display: table-cell; padding: 15px;">
 <img class="card" src="static/chees-pixel-tarot/{{card[2]}}">
 <p class="img__description" align="center">{{card[1]}}</p>
 </div>
 
-<div class="stuff" style="display: table-cell; padding: 15px;">
-<img class="card" src="static/chees-pixel-tarot/{{card[2]}}">
-<div class="img__description"><p align="center">{{card[1]}}</p></div>
-</div>
-
-
-
-</div>
-
-
-</div>
 {% endfor %}
 
-{% block content %}
+</div>
+
+</div>
+
 <p align="center"><img src="static/text-number.png">
 	<form align="center" id="myForm" method="post" action="handle_form"><input type="text" name="number" value="+18055551000" style="height:50" size="50"></form></p>
-{% endblock %}
 
 <p align="right" style="vertical-align: text-bottom">Credits</p>
 

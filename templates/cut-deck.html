@@ -3,18 +3,11 @@
 <head>
 
 <script>
-var clicks = 0
-
-var button = document.getElementById("catGif"),
-	count = 0
-	catDiv = document.getElementById("catDiv");
+var count = 0
 
 function clickThis() {
-	// alert("Hello! I am an alert box!!");
 	count += 1;
 	if (count > 0 && count < 4) {
-		document.getElementById("catDiv").innerHTML = "Pet the kitty: " + count;
-		console.log("BUTT")
 		if (count === 3) {
 			window.location.href = "final_reading";
 		}
@@ -63,9 +56,6 @@ function clickThis() {
 <p align="center"><img src="static/choose-final-three.png"></p>
 </div>
 
-<div id="catDiv">
-	Pet the kitty:
-</div>
 </body>
 
 </html>
