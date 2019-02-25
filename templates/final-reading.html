@@ -2,6 +2,8 @@
 
 <head>
 
+<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+
 <style>
 
 	body {
@@ -90,7 +92,9 @@ BUTT
 </div>
 
 <p align="center"><img src="static/text-number.png">
-	<form align="center" id="myForm" method="post" action="handle_form"><input type="text" name="number" value="+18055551000" style="height:50" size="50"></form></p>
+	<form align="center" id="myForm" method="post" role="form" action="">
+    {{ form.csrf }}
+    <input type="text" name="number" value="+18055551000" style="height:50" size="50"></form></p>
 
 <p align="right" style="vertical-align: text-bottom">Credits</p>
 
