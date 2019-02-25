@@ -59,7 +59,7 @@ def final_five():
 		number=request.form['number']
 
 		message = client.messages.create(body=tarot_reading_text, from_='4153001499', to=number)
-		return redirect('/final_reading')
+		# return render_template("final-reading.html", tarot_reading=tarot_reading, form=form)
 
 	else:
 		return render_template("final-reading.html", tarot_reading=tarot_reading, form=form)
