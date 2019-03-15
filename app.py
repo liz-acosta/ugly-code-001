@@ -13,8 +13,9 @@ from wtforms import Form, BooleanField, TextField, validators
 
 from twilio.rest import Client
 
-account_sid = 'nope'
-auth_token = 'nah-up'
+account_sid = 'ah'
+auth_token = 'oh'
+
 client = Client(account_sid, auth_token)
     
 TAROT_DECK_DICT = {}
