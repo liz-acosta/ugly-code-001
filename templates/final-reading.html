@@ -2,11 +2,32 @@
 
 <head>
 
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script type="text/javascript">
+  $(function() {
+
+    $('#myForm').on('submit', function(event) {
+        event.preventDefault();
+        $.ajax({
+            url: '/handle_form',
+            data: $('input').serialize(),
+            type: 'POST',
+            success: function(response) {
+                console.log(response);
+            },
+
+            error: function(error) {
+                console.log(error);
+            }
+        });
+    })
+});
+</script>
 <style>
 
-	body {
-	 	background-image: url("static/Battleground3.png");
-	}
+  body {
+    background-image: url("static/Battleground3.png");
+  }
 
 .center-div
 {
@@ -19,20 +40,20 @@
 }
 
 .row {
-	height: 10px;
+  height: 10px;
 }
 
 .card-card {
-	visibility: visible;
+  visibility: visible;
 }
 
 .card {
     cursor: url("static/sparkles.png"), auto;
 
 @font-face {
-	font-family: "Alagard";
-	src: url("alagard_by_pix3m-d6awiwp.tff");
-	}
+  font-family: "Alagard";
+  src: url("alagard_by_pix3m-d6awiwp.tff");
+  }
 }
 
 p {
@@ -67,6 +88,7 @@ color: #d9d9d9;
   cursor: url("static/sparkles.png"), auto;
 }
 </style>
+
 </head>
 
 <body>
@@ -90,7 +112,7 @@ BUTT
 </div>
 
 <p align="center"><img src="static/text-number.png">
-	<form align="center" id="myForm" method="post" action="handle_form"><input type="text" name="number" value="+18055551000" style="height:50" size="50"></form></p>
+  <form align="center" id="myForm" method="post" action="/handle_form"><input type="text" name="number" value="+18055551000" style="height:50" size="50"></form></p>
 
 <p align="right" style="vertical-align: text-bottom">ugly code</p>
 
